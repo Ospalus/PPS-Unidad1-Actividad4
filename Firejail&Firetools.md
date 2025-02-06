@@ -7,6 +7,14 @@ Instalamos la aplicación **Firejail** y **Firetools** en una máquina virtual c
 
 Posteriormente, instalamos **Konsole**, ya que el terminal de GNOME no se ejecuta correctamente desde **Firejail** (o no hemos logrado lanzarlo).  
 
-Para lanzar la aplicación, nos vamos a un terminal y ejecutamos 
+Para lanzar el entorno controlado, primero vamos a lanzar el **firetools** para controlar los procesos que lancemos desde **firejail**. Para lanzar **firetools** invocamos el comando:
+
+``
+sudo firetools
+``
+Se nos abrirá un pequeño panel de control alargado:
+
+[1](/Imagenes/1.png)
+
 
 </p>
